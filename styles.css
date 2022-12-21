@@ -18,14 +18,14 @@ body {
     padding-bottom: 25px;
    }
    /*Style the div to create a red line defining the position, width and height. */
-   .redline {
+   .sidebar {
     top: 271px;
     left: 89px;
     width: 0px;
     height: 297px;
     
    }
-   .grilled {
+   .laptop {
     padding: auto;
     margin: auto;
    }
@@ -98,7 +98,7 @@ body {
     font-size: 10px;
    }
    /*Style book table to be the same with menu button*/
-   .book-table {
+   .send-eBook {
     margin-left: 15px;
     border-radius: 60px;
     margin-top: 35px;
@@ -118,7 +118,7 @@ body {
     
    }
    /*Style the lunch to give it a font size and margin*/
-   .lunch {
+   .date {
     font-size: medium;
     margin: auto; 
     
@@ -130,7 +130,7 @@ body {
     opacity: 0.5; 
    }
    /*Style the lunch and time to give it font size, position and margin at the top*/
-   .lunch-time {
+   .dates {
     font-size: 3px;
     position: relative;
     left: 60px;
@@ -145,7 +145,7 @@ body {
    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
    @media (min-width: 768px) { 
     body, .container {
-    width: 80%;
+    width: 100%;
     }
    }
    /* Large devices (desktops, 992px and up) */
