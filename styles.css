@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+   }
+   /* give the background an images, define the width, margin and padding.*/
+   .container {
+    background-image: url(images/chicken.png);
+    padding: 0 35px;
+    margin: 0 auto;
+   }
+   /* Positioned the logo to the left with a width of 50px to make it small */ 
+   .site-logo {
+    float: right;
+    width: 50px;
+   }
+   /* give the site title and logo a magin and padding a the bottom*/
+   .header {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+   }
+   /*Style the div to create a red line defining the position, width and height. */
+   .redline {
+    top: 271px;
+    left: 89px;
+    width: 0px;
+    height: 297px;
+    
+   }
+   .grilled {
+    padding: auto;
+    margin: auto;
+   }
+   /* Give the h1 a font, font-size and font-weight */
+   h1 {
+    font-family: Arial, sans-serif;
+    font: bold;
+    font-weight: 500px;
+   }
+   /*style the about section to give it a gap between the red line. */
+   .about {
+    margin-top: 45px;
+    position:absolute;
+    top: 88px;
+    left: 100px;
+    height: 68px;
+   }
+   /*Style the main text*/
+   .title-head {
+    font: 500;
+    font-family: ‘arial’;
+    font-weight: bold;
+   }
+   /*Style the paragraph to align with the main text. */
+   .p3 {
+    position: absolute;
+    left: 100px;
+    margin: auto;
+   }
+   /*Style the paragraph to align with the main text. */
+   .p2 {
+    position: absolute;
+    left: 100px;
+   }
+   /*Style the first Redline.*/
+   .long {
+    top: 271px;
+    left: 89px;
+    width: 0px;
+    height: 185px;
+    border: 10px solid #d85a5a;
+    opacity: 1;
+    
+   }
+   /*Style the second redline.*/
+   .small {
+    top: 617px;
+    left: 89px;
+    width: 0px;
+    height: 35px;
+    opacity: 1;
+    margin-top: 40px;
+    border: 10px solid #d85a5a;
+   }
+   /*Style the paragraphs to give it color and opacity*/
+   .p1, .p2, .p3 {
+    color: darkred;
+    opacity: 0.5;
+   }
+   /*Style the menu buttons to give it a border background width and margin*/
+   .menu-button {
+    border-radius: 60px;
+    margin-top: 35px;
+    color: #FFFFFF;
+    left: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: #d85a5a;
+    border: #d85a5a;
+    font-size: 10px;
+   }
+   /*Style book table to be the same with menu button*/
+   .book-table {
+    margin-left: 15px;
+    border-radius: 60px;
+    margin-top: 35px;
+    width: 100px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    text-decoration-color: #d85a5a;
+    box-shadow: 2px 2px 4px #857979;
+    color: #d85a5a;
+    font-size: 10px;
+   }
+   /*Style the two buttons to give it a position*/
+   .buttons {
+    position: relative;
+    left: 60px;
+    
+   }
+   /*Style the lunch to give it a font size and margin*/
+   .lunch {
+    font-size: medium;
+    margin: auto; 
+    
+   }
+   /*Style the time to give it font size, color and opacity*/
+   .time {
+    font-size: small;
+    color: darkred; 
+    opacity: 0.5; 
+   }
+   /*Style the lunch and time to give it font size, position and margin at the top*/
+   .lunch-time {
+    font-size: 3px;
+    position: relative;
+    left: 60px;
+    margin-top: 25px;
+   }
+   /*Style the arrow button to give it a position and margin*/
+   .arrow {
+    position: relative;
+    left: 75px;
+    margin: auto;
+   }
+   /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+   @media (min-width: 768px) { 
+    body, .container {
+    width: 80%;
+    }
+   }
+   /* Large devices (desktops, 992px and up) */
+   @media (min-width: 992px) {
+    body, .container {
+    width: 100%;
+    }
+   }
+   /* Extra large devices (large desktops, 1200px and up) */
+   @media (min-width: 1200px) {
+    body, .container {
+    width: 100%;
+    }
+   }
