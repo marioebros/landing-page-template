@@ -3,7 +3,8 @@ body {
    }
    /* give the background an images, define the width, margin and padding.*/
    .container {
-    background-image: url(images/pexels-cottonbro-studio-5485879.jpeg);
+    background-image: url(images/pexels-artem-podrez-4884121.jpeg);
+    height: 100vh;
     padding: 0 35px;
     margin: 0 auto;
    }
